@@ -18,6 +18,8 @@ namespace PiSim
                 double x = RandFrom0To1();
                 double y = RandFrom0To1();
 
+                double tttt = 0.5d;
+
                 if (x * x + y * y <= 1)
                     countInCircle++;
             }
